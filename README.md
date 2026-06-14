@@ -1,2 +1,2 @@
 # BigData
-Projekt na studia w ramach zaliczenia przedmiotu, opierający się na języku Python
+repository containing a university project developed as a final assignment
