@@ -12,6 +12,11 @@ A Python data analysis script built with `pandas` that processes user listening 
 
 ## Setup
 
+In order to run the script, you need to download datasets and include them in the same directory:
+
+https://drive.google.com/file/d/14YhXDwI9Y4lNrADbmCpAMpgkJ4QcHq5g/view?usp=drive_link 
+https://drive.google.com/file/d/1_PHw_218Oa0jGRmwIyd3xOlZ4FcIrmnH/view?usp=drive_link
+
 Install the required dependency:
 
 ```bash
@@ -22,3 +27,4 @@ pip install pandas
 Run the script from your terminal:
 ```bash
 python musicdata.py
+```
