@@ -27,7 +27,7 @@ print(piosenki.isnull().sum()) # sprawdzamy braki
 
 piosenki_duplikat = piosenki.drop_duplicates(subset=['song_id']) # usuwamy mozliwe powtorzenia piosenki (jedna piosenka moze miec
                                                      # kilka song_id
-df = pd.merge(trojki, piosenki_duplikat, left_on='track_id', right_on='track_id', how='inner') # laczymy zbiory dla analizy
+df = pd.merge(trojki, piosenki_duplikat, left_on='track_id', right_on='song_id', how='inner') # laczymy zbiory dla analizy
 
 najpop = df.groupby(['artist_name','song_title']).size().sort_values(ascending=False).head(10)
 print("10 najpopularniejszych piosenek z danych:")
