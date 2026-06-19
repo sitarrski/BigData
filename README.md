@@ -1,6 +1,6 @@
 # Music Streaming Data Analyzer
 
-A Python data analysis script built with `pandas` that processes user listening histories and song metadata (inspired by the Million Song Dataset). It cleans, merges, and extracts key insights regarding user behavior and artist popularity.
+A Python data analysis script built with `pandas` that processes user listening histories and song metadata, using a Million Song Dataset. It cleans, merges, and extracts key insights regarding user behavior and artist popularity.
 
 ## Features
 
